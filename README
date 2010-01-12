@@ -1,0 +1,7 @@
+Adds the following core extensions:
+
+Object#blank? and #present? (taken from ActiveSupport)
+Symbol#to_proc (backport of Ruby 1.8.7 feature)
+Object#tap (backport of Ruby 1.8.7 feature)
+Object#try (taken from ActiveSupport)
+
