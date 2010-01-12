@@ -10,7 +10,7 @@ task :default => :test
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "gbuesing-tinyext"
+    gemspec.name = "tinyext"
     gemspec.summary = "Tiny set of core extensions. Backports of Ruby 1.9 features."
     gemspec.description = "Adds Object#blank?, #present?, #tap? and Symbol#to_proc"
     gemspec.email = "gbuesing@gmail.com"
