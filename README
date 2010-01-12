@@ -5,3 +5,5 @@ Symbol#to_proc (backport of Ruby 1.8.7 feature)
 Object#tap (backport of Ruby 1.8.7 feature)
 Object#try (taken from ActiveSupport)
 
+Also backports a Ruby 1.9 performance improvement to net/http, which needs to be required manually
+
